@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHÚC DU</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #117689;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .container {
+            margin: 50px 0;
+        }
+        .mainInfo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .mainInfo img {
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin-bottom: 15px;
+            width: 150px;
+            height: 150px;
+            box-shadow: 0 0 0.25em 0.25em rgb(153 235 255);
+            margin-bottom: 20px;
+        }
+        .mainInfo p {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .mainBtnGroup {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .mainBtnGroup a {
+            width: 40%;
+            text-decoration: none;
+            margin: 10px;
+            padding: 15px 0px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .mainBtnGroup a:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .mainBtnGroup a i {
+            margin-right: 25px;
+        }
+        @media all and (max-width: 480px) {
+            .mainBtnGroup a {
+                width: 80%;
+            }
+            .mainInfo p {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="mainInfo">
+            <img src="https://baohiem365.com.vn/assets/images/faces/male/26.jpg" alt="">
+            <p>
+                <i class="fa-solid fa-user-tie"></i> Nguyễn Hoàng Phúc
+            </p>
+            <p>
+                <i class="fa-solid fa-phone-flip"></i> 0333 080298
+            </p>
+            <p>
+                <i class="fa-solid fa-person-dress"></i> Thích e nào đó tên L
+            </p>
+            <p>
+                <i class="fa-solid fa-puzzle-piece"></i> Ông hoàng code thủ, Chúa tể ngành IT, Phù thủy lập trình, Máy dập thời tam quốc
+            </p>
+        </div>
+        <div class="mainBtnGroup">
+            <a href="" class="btnMain">
+                <i class="fa-brands fa-facebook-f"></i> 
+                <span>Phây búc</span>
+            </a>
+            <a href="" class="btnMain">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+            <a href="" class="btnMain">
+                <i class="fa-brands fa-skype"></i>
+                <span>Skype</span>
+            </a>
+            <a href="" class="btnMain">
+                <i class="fa-brands fa-twitter"></i>
+                <span>Chym xanh</span>
+            </a>
+        </div>
+       
+    </div>
+</body>
+</html>
